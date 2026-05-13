@@ -1,0 +1,12 @@
+cat > jsconfig.json << 'EOF'
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"],
+      "@components/*": ["components/*"],
+      "@styles/*": ["styles/*"]
+    }
+  }
+}
+EOF
